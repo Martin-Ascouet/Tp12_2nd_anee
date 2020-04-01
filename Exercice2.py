@@ -2,6 +2,7 @@ def reverseString(s, i=0):
     """Reverses the string s recursively """
     if i == len(s):
         return ""
+    print(s[i])
     return reverseString(s, i + 1) + s[i]
 
 
